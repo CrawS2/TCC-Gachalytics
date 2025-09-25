@@ -1,0 +1,91 @@
+#pageheader{
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: left;
+    width: fit-content;
+    margin-left: 2%;
+}
+#headericon{
+    margin-left: 8px;
+    margin-right: 25px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+#corpo
+{
+    padding-top: 12%;
+    position: relative;
+    z-index: 3;
+}
+.content{
+    padding: 1% 2%;
+    width: 96%;
+    text-align: center;
+}
+#Search{
+    width: 97%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.character-card{
+    display: flex;
+    text-decoration: none;
+    width: 240px;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 30px;
+    transition: 1s ease-in-out;
+    margin-bottom: 35px;
+}
+.rarity-card{
+    width: 240px;
+    max-height: 300px;
+    border-radius: 8px;
+}
+.character-link{
+    display: block;
+    text-decoration: none;
+    max-height: 300px;
+    width: 240px;
+}
+.character-name{
+    position: relative;
+    top: 2.5vh;
+    display: block;
+    color: white;
+    font-size: 1vw;
+    font-weight: 700;
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;
+    border-radius: 8px;
+    width: 99%;
+    background: linear-gradient(#3d3c3c96, #2929293f);
+    }
+.character-pic{
+    display: flex;
+    position: relative;
+    bottom: 260px;
+    height: 255px;
+    width: 238px;
+}
+.icon-class{
+    height: 2.5vh;
+    position: relative;
+    display: flex;
+    bottom: 56.1vh;
+    left: 0.5vh;
+}
+.icon-element{
+    height: 2.5vh;
+    position: relative;
+    display: flex;
+    bottom: 58.5vh;
+    left: 90%;
+}
+.character-card:hover{
+    transform: scale(0.95);
+}
